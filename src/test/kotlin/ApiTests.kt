@@ -9,7 +9,7 @@ class ApiTests{
         val groupByCount = 3
         val target = Api<TestData>(getInitTestData())
 
-        val expected = intArrayOf(6, 15, 24, 11)
+        val expected = intArrayOf(6, 15, 24, 21)
 
         val actual = target.sum(fieldName = fieldName, groupByCount = groupByCount)
 
